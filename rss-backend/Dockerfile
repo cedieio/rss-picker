@@ -4,6 +4,6 @@ WORKDIR /app/rss-feed/
 
 COPY . .
 
-RUN npm install && npm install nodemon -g && pwd && ls -l  && pwd
+RUN npm install && npm install nodemon -g
 
 CMD ["npm", "start"]
