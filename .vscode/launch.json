@@ -1,0 +1,18 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "attach",
+      "name": "rss-backend-debug",
+      "address": "127.0.0.1",
+      "port": 9230,
+      "remoteRoot": "/app/rss-feed",
+      "localRoot": "${workspaceFolder}/rss-backend",
+      "protocol": "inspector"
+    }
+  ]
+}

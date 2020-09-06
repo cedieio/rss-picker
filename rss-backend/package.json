@@ -1,0 +1,15 @@
+{
+  "name": "rss-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon --inspect=0.0.0.0:9230 -e js,json --watch rss-backend app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "javaman144@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

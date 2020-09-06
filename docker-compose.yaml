@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  rss-backend:
+    build:
+      context: rss-backend/
+    ports:
+      - 3000:3000
+      - 9230:9230
+    volumes:
+      - ./rss-backend:/app/rss-feed   
