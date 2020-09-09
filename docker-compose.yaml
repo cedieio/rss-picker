@@ -7,8 +7,7 @@ services:
     ports:
       - 9230:9230
     volumes:
-      - ./rss-backend:/app/rss-feed
-
+      - ./rss-backend:/app/rss-backend
   redis:
     image: redis:6.0.7-alpine
     ports:

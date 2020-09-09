@@ -1,6 +1,6 @@
 FROM node:14.9.0-alpine3.10
 
-WORKDIR /app/rss-feed/
+WORKDIR /app/rss-backend/
 
 COPY . .
 
